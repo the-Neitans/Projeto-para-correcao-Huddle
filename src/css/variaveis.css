@@ -1,0 +1,7 @@
+:root{
+    --cor-fundo-principal: hsl(257, 40%, 49%);
+    --cor-botao-ativo: hsl(300, 69%, 71%);
+    --cor-padrao: #fff;
+    --fonte-principal: "Poppins", arial; 
+    --tamanho-font: 62,5%;
+}

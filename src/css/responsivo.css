@@ -1,0 +1,35 @@
+@media(max-width:970px){
+.container img{
+max-width: 600px;
+}
+.rodape{
+    margin-top: 30px;
+}
+}
+
+@media(max-width:768px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container img{
+        max-width: 300px;
+        margin-left: 3rem;
+    }
+ .servico{
+        justify-content: center;
+        
+    }
+    .container .btn{
+        justify-content: center;
+    
+        max-width: 100%;
+    }
+    .rodape{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    }
