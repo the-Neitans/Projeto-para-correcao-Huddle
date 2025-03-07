@@ -14,22 +14,44 @@ max-width: 600px;
     .container{
         flex-direction: column;
         justify-content: center;
+        max-height: 700px;
     }
-    .container img{
-        max-width: 300px;
-        margin-left: 3rem;
+
+    .container .servico h1{
+        font-size: 1.6rem;
+        font-weight: 600;
     }
- .servico{
+
+    .container .servico p{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+
+    body .logo{
         justify-content: center;
-        
+        display: flex;
     }
+
+    body .logo img{
+        max-width: 170px;
+    
+    }
+    main .container img{
+        justify-content: center;
+        max-width: 300px;
+        padding: 0;
+        margin-top: 1rem;
+    }
+
     .container .btn{
         justify-content: center;
     
         max-width: 100%;
     }
-    .rodape{
+    .rodape nav ul{
         margin-top: 20px;
         justify-content: center;
+        align-items: center;
     }
     }
